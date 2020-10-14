@@ -9,8 +9,7 @@
 
 **2. Contoh Simpan data baru**
 
-![contoh simpan baru](https://user-images.githubusercontent.com/72298156/95978019-cffd1700-0e43-11eb-8604-3851aa23b83c.png)
-
+![contoh simpan 1](https://user-images.githubusercontent.com/72298156/95978415-5b76a800-0e44-11eb-989a-354730567d78.png)
 
 **3. Tampilan data baru di Daftar Produk**
 
