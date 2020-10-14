@@ -11,7 +11,7 @@
 
 ![contoh simpan](https://user-images.githubusercontent.com/72298156/95961336-15631980-0e2f-11eb-9080-39e408ccafa6.png)
 
-**3. Tampilan data baru di daftar produk**
+**3. Tampilan data baru di Daftar Produk**
 
 ![contoh simpan produk B](https://user-images.githubusercontent.com/72298156/95961377-257af900-0e2f-11eb-9b95-557518d320b1.png)
 
