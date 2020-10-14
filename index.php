@@ -13,7 +13,7 @@
 		//Pengujian Apakah data akan diedit atau disimpan baru
 		if($_GET['hal'] == "edit")
 		{
-			//Data akan di edit
+			//Data yang akan di edit
 			$edit = mysqli_query($koneksi, "UPDATE tproduk set
 											 	nama_produk = '$_POST[tnama]',
 											 	keterangan = '$_POST[tketerangan]',
@@ -21,7 +21,7 @@
 											 	jumlah = '$_POST[tjumlah]'
 											 WHERE id_pro = '$_GET[id]'
 										   ");
-			if($edit) //jika edit sukses
+			if($edit) //jika EDIT sukses
 			{
 				echo "<script>
 						alert('Edit data SUKSES!');
@@ -45,7 +45,7 @@
 										  		 '$_POST[tharga]', 
 										  		 '$_POST[tjumlah]')
 										 ");
-			if($simpan) //jika simpan sukses
+			if($simpan) //jika SIMPAN sukses
 			{
 				echo "<script>
 						alert('Simpan data SUKSES!');
@@ -66,10 +66,10 @@
 	}
 
 
-	//Pengujian jika tombol Edit / Hapus di klik
+	//Jika tombol Edit / Hapus di klik
 	if(isset($_GET['hal']))
 	{
-		//Pengujian jika edit Data
+		//Jika edit Data
 		if($_GET['hal'] == "edit")
 		{
 			//Tampilkan Data yang akan diedit
@@ -185,7 +185,7 @@
 
 	  </div>
 	</div>
-	<!-- Akhir Inputan Produk-->
+	<!-- Akhir Input Produk-->
 
 </div>
 
